@@ -100,6 +100,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "tienda_tecnologia:build:production",
+            "firebaseProject": "tecnologia-d2e5c",
+            "firebaseHostingSite": "tecnologia-d2e5c"
+          }
         }
       }
     }

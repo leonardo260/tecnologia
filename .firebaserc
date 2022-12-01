@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tecnologia-d2e5c": {
+      "hosting": {
+        "tienda_tecnologia": [
+          "tecnologia-d2e5c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tecnologia-d2e5c"
+  }
+}

@@ -1,0 +1,18 @@
+<p>lista de productos</p>
+<table>
+    <tr>
+        <th>precio</th> <br>
+        <th>Nombre</th><br>
+        <th>categoria</th><br>
+        <th>stock</th><br>
+    </tr>
+    <tr *ngFor="let product of products |async">
+        <td>{{product.price}}</td><br>
+        <td>{{product.name}}</td><br>
+        <td>{{product.category}}</td><br>
+        <td>{{product.stock}}</td><br>
+
+        
+       
+    </tr>
+</table>
